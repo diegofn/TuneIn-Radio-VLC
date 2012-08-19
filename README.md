@@ -10,6 +10,12 @@ How to Install
 2. Start your VLC 
 3. Enjoy
 
+Version 0.2
+===========
+* Add music menu
+* Add custom icon for main categories
+* Run plugin as a LUA Object
+
 Version 0.1
 ===========
 

@@ -142,7 +142,7 @@ function NewTuneInRadio (username, password)
 	
 		-- Add the first node
 		local node = vlc.sd.add_node( {	title = category_name,
-									 	arturl = "https://raw.github.com/diegofn/Tunein-Radio-VLC/master/resources/" .. category .. ".png"
+									 	arturl = "http://www.avrilcolombia.org/VideoLAN/VLC/resources/" .. category .. ".png"
 									 } )
 		local tree = simplexml.parse_url(url)
 			

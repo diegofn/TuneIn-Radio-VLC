@@ -131,11 +131,11 @@ function NewTuneInRadio (username, password)
 		if track_type == "category" then
 			params = "?c=" .. category
 		elseif track_type == "region" then
-			params = "?r=" .. category
+			params = "?id=" .. category
 		elseif track_type == "id" then
 			params = "?id=" .. category
 		end
-		params = params .. "&formats=" .. self.__formats__ .. "&partnerId=" .. self.__partner_id__ .. "&username=" .. self.__username__ .. "&password" .. self.__password__
+		params = params .. "&formats=" .. self.__formats__ .. "&partnerId=" .. self.__partner_id__ .. "&username=" .. self.__username__ .. "&password=" .. self.__password__
 	
 		-- Create the URL
 		local url = self.__protocol__ .. self.__BASE_URL__ .. method .. params

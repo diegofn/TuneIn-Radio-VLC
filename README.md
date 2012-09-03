@@ -15,7 +15,8 @@ How to Install
 Version 0.3
 ===========
 * Bug fixed about TuneIn Password
-* Added radiotime playlist parser to opml.radiotime.com links
+* Added StreamTheWorld Support
+* Added radiotime.com playlist support to navigate podcast, sports, etc tree.
 
 Version 0.2
 ===========

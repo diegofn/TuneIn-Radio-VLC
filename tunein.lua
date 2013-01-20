@@ -1,7 +1,7 @@
 --[[
  $Id$
 
- Copyright © 2012 VideoLAN and AUTHORS
+ Copyright © 2013 VideoLAN and AUTHORS
 
  Authors: Diego Fernando Nieto <diegofn at me dot com>
 
@@ -53,6 +53,7 @@ function main()
 	end
 	
 	tunein_radio.add_radio_tracks ( "category", "local", "Local Radio")
+	tunein_radio.add_radio_tracks ( "category", "trending", "Trending")
 	tunein_radio.add_radio_tracks ( "category", "music", "Music")
 	tunein_radio.add_radio_tracks ( "id", "c57922", "News")
 	tunein_radio.add_radio_tracks ( "category", "talk", "Talk")

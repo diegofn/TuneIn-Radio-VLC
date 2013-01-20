@@ -1,7 +1,7 @@
 --[[
  $Id$
 
- Copyright © 2012 VideoLAN and AUTHORS
+ Copyright © 2013 VideoLAN and AUTHORS
 
  Authors: Diego Fernando Nieto <diegofn at me dot com>
 

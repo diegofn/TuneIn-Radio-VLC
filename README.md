@@ -12,6 +12,10 @@ How to Install
 4. Start your VLC 
 5. Enjoy
 
+Version 0.4
+===========
+* Added Trending category
+
 Version 0.3
 ===========
 * Bug fixed about TuneIn Password

@@ -10,7 +10,7 @@ How to Install
 2. If you have an TuneIn user, you can modify the script in the __username__ and __password__ variables
 3. Copy the playlist/radiotime.lua and playlist/streamtheworld.lua to share/lua/playlist directory, with this playlist you can browse the Podcast, news or sports directory since VLC
 4. Start your VLC 
-5. Enjoy
+5. Enjoy!
 
 Version 0.4
 ===========

@@ -35,5 +35,5 @@ Version 0.1
 
 Wish list
 =========
-* Read the username and password for the Preferences Dialog
+* Read the username and password for the Preferences Dialog, In progress
 * Be accepted in VLC git ;)

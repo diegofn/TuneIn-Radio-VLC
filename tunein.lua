@@ -73,7 +73,7 @@ function NewTuneInRadio (username, password)
 	local self = {	__username__ = username,
 					__password__ = password,
 					__genres_cache__ = {},
-					__partner_id__ = "yvcOjvJP",
+					__partner_id__ = "k2YHnXyS",
 					__protocol__ = "http://",
 					__BASE_URL__ = "opml.radiotime.com",
 					__formats__ = "aac,html,mp3,wma,wmpro,wmvideo,wmvoice"
@@ -143,7 +143,7 @@ function NewTuneInRadio (username, password)
 	
 		-- Add the first node
 		local node = vlc.sd.add_node( {	title = category_name,
-									 	arturl = "http://www.avrilcolombia.org/VideoLAN/VLC/resources/" .. category .. ".png"
+									 	arturl = "http://www.avrilcolombia.com/VideoLAN/VLC/resources/" .. category .. ".png"
 									 } )
 		local tree = simplexml.parse_url(url)
 			

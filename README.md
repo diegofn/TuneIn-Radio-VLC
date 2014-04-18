@@ -12,6 +12,11 @@ How to Install
 4. Start your VLC 
 5. Enjoy!
 
+Version 0.5
+===========
+* Change PartnerId to support flash based streaming
+* Update image URL
+
 Version 0.4
 ===========
 * Added Trending category

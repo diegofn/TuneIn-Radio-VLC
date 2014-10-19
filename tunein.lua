@@ -1,7 +1,7 @@
 --[[
  $Id$
 
- Copyright © 2013 VideoLAN and AUTHORS
+ Copyright © 2014 VideoLAN and AUTHORS
 
  Authors: Diego Fernando Nieto <diegofn at me dot com>
 
@@ -49,7 +49,7 @@ function main()
 	-- track_type is category, region, id
 	--
 	if __username__ ~= nil then
-		tunein_radio.add_radio_tracks ( "category", "presets", "My presets" )
+		tunein_radio.add_radio_tracks ( "category", "presets", "Favorites" )
 	end
 	
 	tunein_radio.add_radio_tracks ( "category", "local", "Local Radio")
@@ -143,7 +143,7 @@ function NewTuneInRadio (username, password)
 	
 		-- Add the first node
 		local node = vlc.sd.add_node( {	title = category_name,
-									 	arturl = "http://www.avrilcolombia.com/VideoLAN/VLC/resources/" .. category .. ".png"
+									 	arturl = "https://raw.githubusercontent.com/diegofn/TuneIn-Radio-VLC/master/resources/" .. category .. ".png"
 									 } )
 		local tree = simplexml.parse_url(url)
 			

@@ -12,6 +12,12 @@ How to Install
 4. Start your VLC 
 5. Enjoy!
 
+Version 0.6
+===========
+* Update image hosting
+* "My presets" change for "Favorites" category
+* Minor fix
+
 Version 0.5
 ===========
 * Change PartnerId to support flash based streaming

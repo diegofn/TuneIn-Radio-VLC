@@ -1,9 +1,7 @@
 --[[
- $Id$
+ Streamtheworld lua script
 
- Copyright © 2014 VideoLAN and AUTHORS
-
- Authors: Diego Fernando Nieto <diegofn at me dot com>
+ Copyleft 2013-2018 Diego Fernando Nieto <diegofn at me dot com>
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

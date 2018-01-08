@@ -3,32 +3,45 @@
 
 This is a Service Discovery LUA Script to TuneIn Radio for VLC 2.X.X and VLC 3.X.X
 
+## Screenshots
+
+![VLC with list mode on Playlist view mode](preview1.png)
+
 # Installation
 
-1. Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/archive/master.zip and uncompress:
+Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/archive/master.zip and uncompress it:
 
     curl -L https://github.com/diegofn/TuneIn-Radio-VLC/archive/master.zip > TuneinRadioVLC.zip
     unzip TuneinRadioVLC.zip
 
-1.1. On Linux install copy to home directory 
+**Linux**: copy files to application directory:
+
     cp TuneIn-Radio-VLC-master/tunein.lua /usr/lib/vlc/lua/sd/
     cp TuneIn-Radio-VLC-master/playlist/* /usr/lib/vlc/lua/playlist/
 
-1.2. On Windows copy to `C:\Program Files\VLC` or to `%AppData%/VLC/VideoLAN/lua/sd`
+**Windows**: open a Command Prompt as Administrator user and copy files to `C:\Program Files (x86)\VideoLAN\VLC\` or to `%AppData%/VLC/VideoLAN/lua/sd` if exists
 
-1.3. On MacOS copy to /Applications/VLC folder: 
-    sudo cp TuneIn-Radio-VLC-master/tunein.lua /Applications/VLC.app/Contents/MacOS/share/lua/sd/
-    sudo cp -R TuneIn-Radio-VLC-master/playlist/* /Applications/VLC.app/Contents/MacOS/share/lua/playlist/
+    xcopy TuneIn-Radio-VLC-master\tunein.lua "C:\Program Files (x86)\VideoLAN\VLC\lua\sd"
+    xcopy TuneIn-Radio-VLC-master\playlist\* "C:\Program Files (x86)\VideoLAN\VLC\lua\playlist"
 
-Or you can copy to local `home` directory
+**MacOS**: you can copy files to local `home` directory
+
     cp TuneIn-Radio-VLC-master/tunein.lua ~/Library/Application\ Support/org.videolan.vlc/lua/sd/
     cp -R TuneIn-Radio-VLC-master/playlist/* ~/Library/Application\ Support/org.videolan.vlc/lua/
 
-2. If you have an TuneIn user, you can modify the tunein.lua file in the __username__ and __password__ variables
+**MacOS**: Alternatively, On MacOS you can copy files to `/Applications/VLC.app` folder to all users: 
 
-4. Start your VLC 
+    sudo cp TuneIn-Radio-VLC-master/tunein.lua /Applications/VLC.app/Contents/MacOS/share/lua/sd/
+    sudo cp -R TuneIn-Radio-VLC-master/playlist/* /Applications/VLC.app/Contents/MacOS/share/lua/playlist/
+    
 
-5. Enjoy!
+If you have an TuneIn user, you can modify the `tunein.lua` file in the __username__ and __password__ variables
+
+Start your VLC 
+
+Click on `Internet` -> `TuneIn Radio`
+
+Enjoy!
 
 Version 0.7
 ===========

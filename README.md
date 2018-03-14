@@ -19,6 +19,8 @@ Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/ar
     cp TuneIn-Radio-VLC-master/tunein.lua /usr/lib/vlc/lua/sd/
     cp TuneIn-Radio-VLC-master/playlist/* /usr/lib/vlc/lua/playlist/
 
+    CHANGE: ~/.local/share/vlc/lua
+
 **Windows**: open a Command Prompt as Administrator user and copy files to `C:\Program Files (x86)\VideoLAN\VLC\` or to `%AppData%/VLC/VideoLAN/lua/sd` if exists
 
     xcopy TuneIn-Radio-VLC-master\tunein.lua "C:\Program Files (x86)\VideoLAN\VLC\lua\sd"
@@ -29,15 +31,15 @@ Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/ar
     cp TuneIn-Radio-VLC-master/tunein.lua ~/Library/Application\ Support/org.videolan.vlc/lua/sd/
     cp -R TuneIn-Radio-VLC-master/playlist/* ~/Library/Application\ Support/org.videolan.vlc/lua/
 
-**MacOS**: Alternatively, On MacOS you can copy files to `/Applications/VLC.app` folder to all users: 
+**MacOS**: Alternatively, On MacOS you can copy files to `/Applications/VLC.app` folder to all users:
 
     sudo cp TuneIn-Radio-VLC-master/tunein.lua /Applications/VLC.app/Contents/MacOS/share/lua/sd/
     sudo cp -R TuneIn-Radio-VLC-master/playlist/* /Applications/VLC.app/Contents/MacOS/share/lua/playlist/
-    
+
 
 If you have an TuneIn user, you can modify the `tunein.lua` file in the __username__ and __password__ variables
 
-Start your VLC 
+Start your VLC
 
 Click on `Internet` -> `TuneIn Radio`
 

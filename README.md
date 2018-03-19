@@ -16,10 +16,8 @@ Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/ar
 
 **Linux**: copy files to application directory:
 
-    cp TuneIn-Radio-VLC-master/tunein.lua /usr/lib/vlc/lua/sd/
-    cp TuneIn-Radio-VLC-master/playlist/* /usr/lib/vlc/lua/playlist/
-
-    CHANGE: ~/.local/share/vlc/lua
+    cp TuneIn-Radio-VLC-master/tunein.lua ~/.local/share/vlc/lua/sd/
+    cp TuneIn-Radio-VLC-master/playlist/* ~/.local/share/vlc/lua/playlist/
 
 **Windows**: open a Command Prompt as Administrator user and copy files to `C:\Program Files (x86)\VideoLAN\VLC\` or to `%AppData%/VLC/VideoLAN/lua/sd` if exists
 

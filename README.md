@@ -27,7 +27,7 @@ Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/ar
 **MacOS**: you can copy files to local `home` directory
 
     cp TuneIn-Radio-VLC-master/tunein.lua ~/Library/Application\ Support/org.videolan.vlc/lua/sd/
-    cp -R TuneIn-Radio-VLC-master/playlist/* ~/Library/Application\ Support/org.videolan.vlc/lua/
+    cp -R TuneIn-Radio-VLC-master/playlist/* ~/Library/Application\ Support/org.videolan.vlc/lua/playlist/
 
 **MacOS**: Alternatively, On MacOS you can copy files to `/Applications/VLC.app` folder to all users:
 

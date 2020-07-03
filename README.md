@@ -21,6 +21,11 @@ Download the latest release from: https://github.com/diegofn/TuneIn-Radio-VLC/ar
 
 if the destination directory does not exist, you can create using the `mkdir` command. 
 
+VLC 3.x.x and above (tested on VLC 3.0.8 using ElementaryOS 5.1.2 Hera)
+
+    cp TuneIn-Radio-VLC-master/tunein.lua ~/.var/app/org.videolan.VLC/data/vlc/lua/sd/
+    cp TuneIn-Radio-VLC-master/playlist/* ~/.var/app/org.videolan.VLC/data/vlc/lua/playlist/
+
 **Windows**: open a Command Prompt as Administrator user and copy files to `C:\Program Files\VideoLAN\VLC\` for x86_64 version of VLC or to `%AppData%/VLC/VideoLAN/lua/sd` if it exists
 
     xcopy TuneIn-Radio-VLC-master\tunein.lua "C:\Program Files\VideoLAN\VLC\lua\sd"
